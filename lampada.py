@@ -1,5 +1,3 @@
-
-    
 import time
 import random
 
@@ -13,6 +11,8 @@ lampadaEmCasa = False
 
 
 while lampada == False:
+
+    lampadaEsc = [True, False]
 
     localDefinido = random.choice(locaisDaEscada)
     
@@ -31,14 +31,33 @@ while lampada == False:
         time.sleep(2)
         print("Voltando para Casa...")
         time.sleep(5)
+        print("A lâmpada foi colocada em cima da mesa")
 
     print("A escada foi encontrada em " + localDefinido)
 
+    print("Colocando a escada debaixo da lâmpada...")
+    time.sleep(3)
 
-    
+    print("Pegando a lâmpada que foi deixada em cima da mesa")
 
-        
-    
+    print("Subindo a escada...")
+    time.sleep(4)
 
+    print("Efetuando a troca da lâmpada...")
+    time.sleep(6)
 
-    
+    print("Descendo a escada...")
+    time.sleep(4)
+
+    print("Indo testar a lâmpada")
+    lampteste = random.choice(lampadaEsc)
+    time.sleep(2)
+
+    if lampteste == True:
+        print("A lâmpada está funcionando corretamente!")
+        lampada = True
+        input()
+    else:
+        print("A lâmpada ainda não está funcionando.")
+        print("Começando a tarefa novamente...")
+        time.sleep(5)
