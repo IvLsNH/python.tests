@@ -1,1 +1,1 @@
-Aqui pratico as liguagens com ideias aleatórias
+Aqui pratico as liguagens da programação com ideias aleatórias
