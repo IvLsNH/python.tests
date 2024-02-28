@@ -1,1 +1,1 @@
-Aqui pratico as liguagens da programação com ideias aleatórias
+Neste repositório coloco alguns códigos python.
