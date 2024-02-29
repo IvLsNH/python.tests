@@ -13,7 +13,6 @@ while enter == True:
 
     num1 = random.randrange(20, 9999)
     num2 = random.randrange(20, 9999)
-    soma = num1 + num2
 
     print(f"Operação:{txtcolors.NUM} {num1} + {num2} {txtcolors.RESET} ")
     
