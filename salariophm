@@ -1,0 +1,14 @@
+#Exercício 8 Python Brasil - 02/04/2024
+
+ganhoPHora = input("Quanto você ganha por hora? ")
+
+horas_Trabalhadas = input("Quantas horas por mês você trabalha? ")
+
+salario = float(ganhoPHora) * float(horas_Trabalhadas)
+
+print("Você deverá ganhar R$%.2f por mês" % salario)
+
+#Usando o Format
+print("Você deverá ganhar R${:.2f} por mês".format(salario))
+
+
