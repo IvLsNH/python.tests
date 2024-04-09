@@ -2,7 +2,7 @@
 
 frase = input('Digite a sua frase: ')
 
-metade_da_frase = (len(frase) // 2)
+metade_da_frase = (len(frase) // 2) # // --> indica a divisão inteira, para encontrar a posição exata
 
 sgnd_mtd = frase[metade_da_frase: ]
 
